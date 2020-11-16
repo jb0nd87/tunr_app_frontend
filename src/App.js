@@ -57,7 +57,16 @@ function App() {
 		fetch(url + '/songs/' + song.id, {
 			method: 'delete',
 		}).then((response) => getSongs());
-	};
+  };
+  
+  const handleRemoveFav = (fav) => {
+    const index = favs.findIndex((theFav) => {
+      return fav.id === theFav.id
+    })
+    const newFavs = [...favs]
+    newFavs.splice(index, 1)
+    setFavs(newFavs)
+  }
 
 	const handleSave = (song) => {
 		const newFavs = [...favs];
@@ -87,7 +96,7 @@ function App() {
                 <FavsList 
                 {...rp} 
                 favs={favs} 
-                handleDelete={handleDelete}/>
+                handleDelete={handleRemoveFav}/>
                 <Form 
                 {...rp} 
                 song={selectedSong} 

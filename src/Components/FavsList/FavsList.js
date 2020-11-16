@@ -20,7 +20,7 @@ function FavsList(props) {
 					<button
 						className='delete'
 						onClick={() => {
-							props.handleDelete(fav.song.id);
+							props.handleDelete(fav);
 						}}>
 						Delete
 					</button>
