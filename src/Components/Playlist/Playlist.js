@@ -9,7 +9,7 @@ function Playlist(props) {
 			<div className='song' key={index}>
 				<div className='song-info'>
 					<span className='song-title'>
-						<b>Title:</b> {song.title}
+						<b>Song:</b> {song.title}
 					</span>
 					<span className='song-artist'>
 						<b>Artist:</b> {song.artist_name}
@@ -53,7 +53,7 @@ function Playlist(props) {
 
 	return (
 		<>
-			<h3>My Playlist</h3>
+			<h3 className='playlist'>Playlist 1</h3>
 			{props.list.length > 0 ? loaded : loading}
 		</>
 	);

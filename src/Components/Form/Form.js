@@ -24,15 +24,15 @@ function Form(props) {
 			<form onSubmit={handleSubmit}>
 				<input
 					type='text'
-					name='title'
+					name='Song'
 					value={formData.song}
-					placeholder='Title'
+					placeholder='Song'
 					onChange={handleChange}
 				/>
 				<input
 					type='text'
 					name='artist'
-					value={formData.artist}
+					value={formData.artist_name}
 					placeholder='Artist'
 					onChange={handleChange}
 				/>

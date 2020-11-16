@@ -1,0 +1,24 @@
+.song-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-form h3 {
+    align-self: flex-start;
+    padding-left: 25%;
+    color: #444444;
+}
+
+form {
+    display: grid;
+    grid-gap: 0.5rem;
+    width: 50%;
+    align-self: center;
+}
+
+form input[type="submit"] {
+    width: fit-content;
+    justify-self: center;
+    background-color: #A93F54;
+    color: white;
+}

@@ -9,14 +9,21 @@ function FavsList(props) {
 			<div className='fav' key={index}>
 				<div>
 					<span className='fav-title'>
-						<b>Title:</b> {fav.title}
+						<b>Song:</b> {fav.title}
 					</span>
 					<span className='fav-artist'>
-						<b>Artist:</b> {fav.artist}
+						<b>Artist:</b> {fav.artist_name}
 					</span>
 					<span className='fav-time'>
 						<b>Time:</b> {fav.time}
 					</span>
+					<button
+						className='delete'
+						onClick={() => {
+							props.handleDelete(fav.song.id);
+						}}>
+						Delete
+					</button>
 				</div>
 			</div>
 		);
@@ -25,7 +32,7 @@ function FavsList(props) {
 
 	return (
 		<>
-			<h3>My Fave List</h3>
+			<h3 className='faves'>Favorite Songs List</h3>
 			{props.favs.length > 0 ? loaded : loading}
 		</>
 	);

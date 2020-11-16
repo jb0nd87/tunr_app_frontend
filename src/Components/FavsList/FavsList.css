@@ -1,0 +1,30 @@
+.fav {
+    display: flex;
+    align-items: center;
+}
+
+.fav-title {
+    color: #738F9B;
+}
+
+.fav-artist {
+    color: #575757;
+}
+
+.fav-time {
+    color: #616161;
+}
+
+.delete {
+    display: flex;
+    width: fit-content;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    justify-content: flex-end;
+}
+
+.faves {
+    font-size: 30px;
+    color: #444444;
+}
