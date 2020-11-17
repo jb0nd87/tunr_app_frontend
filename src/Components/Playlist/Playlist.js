@@ -28,7 +28,7 @@ function Playlist(props) {
 							<i class='fas fa-heartbeat'></i>
 						</button>
 					</Link>
-					{/* <button
+					<button
 						className='btn edit-song'
 						onClick={() => {
 							console.log('song', song);
@@ -36,7 +36,7 @@ function Playlist(props) {
 							props.history.push('/edit');
 						}}>
 						Edit
-					</button> */}
+					</button>
 					<button
 						className='btn remove-song'
 						onClick={() => {
