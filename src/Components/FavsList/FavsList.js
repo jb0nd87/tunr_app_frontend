@@ -16,6 +16,7 @@ function FavsList(props) {
 					</span>
 					<span className='fav-time'>
 						<b>Time:</b> {fav.time}
+						<i class='fas fa-heartbeat'></i>
 					</span>
 					<button
 						className='delete'
