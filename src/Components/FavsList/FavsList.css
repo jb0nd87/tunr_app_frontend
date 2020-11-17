@@ -5,15 +5,18 @@
 }
 
 .fav-title {
-    color: #738F9B;
+    color: #52489C;
+    font-size: 20px;
 }
 
 .fav-artist {
     color: #575757;
+    font-size: 20px;
 }
 
 .fav-time {
     color: #616161;
+    font-size: 20px;
 }
 
 .delete {
@@ -28,4 +31,5 @@
 .faves {
     font-size: 30px;
     color: #444444;
+    font-family: 'Oswald', sans-serif;
 }

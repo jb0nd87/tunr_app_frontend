@@ -7,6 +7,7 @@
     align-self: flex-start;
     padding-left: 25%;
     color: #444444;
+    font-family: 'Sura', serif;
 }
 
 form {
@@ -21,4 +22,5 @@ form input[type="submit"] {
     justify-self: center;
     background-color: #A93F54;
     color: white;
+    font-family: 'Sura', serif;
 }

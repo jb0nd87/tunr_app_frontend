@@ -9,15 +9,18 @@ span {
 }
 
 .song-title {
-    color: #738F9B;
+    color: #52489C;
+    font-size: 20px;
 }
 
 .song-artist {
     color: #575757;
+    font-size: 20px;
 }
 
 .song-time {
     color: #616161;
+    font-size: 20px;
 }
 
 .song-info {
@@ -33,6 +36,7 @@ span {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .btn {
@@ -46,4 +50,5 @@ span {
     font-size: 30px;
     color: #444444;
     font-family: 'Oswald', sans-serif;
+    padding: 0.5rem;
 }
