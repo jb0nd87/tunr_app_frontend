@@ -77,7 +77,7 @@ function App() {
 	return (
 		<>
 			<header>
-				<h1 className='title'>TUNR</h1>
+				<h1 className='title'>TUNR.</h1>
 				<h2 className='play'>FOR ALL YOUR PLAYLIST NEEDS</h2>
 			</header>
 			<main>
