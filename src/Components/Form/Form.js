@@ -24,9 +24,9 @@ function Form(props) {
 			<form onSubmit={handleSubmit}>
 				<input
 					type='text'
-					name='Song'
+					name='title'
 					value={formData.song}
-					placeholder='Song'
+					placeholder='Title'
 					onChange={handleChange}
 				/>
 				<input
