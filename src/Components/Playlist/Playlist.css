@@ -25,6 +25,7 @@ span {
     width: fit-content;
     display: flex;
     justify-content: flex-start;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .btns {
@@ -44,4 +45,5 @@ span {
 .playlist {
     font-size: 30px;
     color: #444444;
+    font-family: 'Oswald', sans-serif;
 }

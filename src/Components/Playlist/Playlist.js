@@ -25,7 +25,7 @@ function Playlist(props) {
 							onClick={() => {
 								props.handleSave(song);
 							}}>
-							{'❤️'}
+							<i class='far fa-heart'></i>
 						</button>
 					</Link>
 					<button
