@@ -1,6 +1,6 @@
 header {
   background-color: #F7E1D7;
-  border-bottom: 10px #B25669;
+  /* border-bottom: 10px #B25669; */
 }
 
 .title {
@@ -9,12 +9,14 @@ header {
   padding: 10px;
   color: #1A323C;
   font-family: 'Permanent Marker', cursive;
+  /* border-bottom: 5px #B25669; */
+
 }
 .play {
   text-align: right;
   font-size: 15px;
   padding: 10px;
   color: #646882;
-  border-bottom: 10px #B25669;
+  border-bottom: 5px #B25669;
   font-family: 'Sura', serif;
 }

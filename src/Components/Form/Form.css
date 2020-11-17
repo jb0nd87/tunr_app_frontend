@@ -13,12 +13,12 @@
 form {
     display: grid;
     grid-gap: 0.5rem;
-    width: 50%;
+    width: 90%;
     align-self: center;
 }
 
 form input[type="submit"] {
-    width: fit-content;
+    width: 90%;
     justify-self: center;
     background-color: #A93F54;
     color: white;
