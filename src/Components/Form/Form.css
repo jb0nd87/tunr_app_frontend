@@ -5,6 +5,7 @@
 
 .song-form h3 {
     align-self: flex-start;
+    justify-content: center;
     padding-left: 25%;
     color: #444444;
     font-family: 'Sura', serif;
