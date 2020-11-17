@@ -1,6 +1,11 @@
 header {
-  background-color: #F7E1D7;
+  /* background-color: #F7E1D7; */
   /* border-bottom: 10px #B25669; */
+  background-image: url('https://www.kingdom.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/t/e/teal_label.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .title {
@@ -16,7 +21,7 @@ header {
   text-align: right;
   font-size: 15px;
   padding: 10px;
-  color: #646882;
+  color: #1A323C;
   border-bottom: 5px #B25669;
   font-family: 'Sura', serif;
 }
